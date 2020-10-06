@@ -51,3 +51,4 @@ let Duck = sprites.create(img`
 Duck.setPosition(120, 80)
 Duck.setFlag(SpriteFlag.StayInScreen, true)
 controller.moveSprite(Duck)
+info.startCountdown(60)
